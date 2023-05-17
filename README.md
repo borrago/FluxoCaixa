@@ -2,6 +2,7 @@ Fluxo Caixa
 Aplicação de fluxo de caixa construída baseada na arquitetura de microserviço em conjunto com as boas praticas de desenvolvimento, código limpo e os principios do SOLID.
 
 Desenho da arquitetura
+![Arquitetura](https://github.com/borrago/FluxoCaixa/assets/50304554/8a62557d-14ff-4b0b-abaf-706571f40733)
  
 Padrões de microserviço utilizados
 •	Database per Service
