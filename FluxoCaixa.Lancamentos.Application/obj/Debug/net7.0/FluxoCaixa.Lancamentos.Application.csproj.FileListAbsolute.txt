@@ -1,0 +1,17 @@
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Application.deps.json
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Application.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Application.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Core.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\bin\Debug\net7.0\FluxoCaixa.Core.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.csproj.AssemblyReference.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.AssemblyInfoInputs.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.AssemblyInfo.cs
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.csproj.CoreCompileInputs.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.csproj.CopyComplete
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\refint\FluxoCaixa.Lancamentos.Application.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Application.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Application\obj\Debug\net7.0\ref\FluxoCaixa.Lancamentos.Application.dll

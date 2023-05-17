@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FluxoCaixa.Lancamentos.Domain/1.0.0": {
+        "dependencies": {
+          "FluxoCaixa.Core": "1.0.0"
+        },
+        "runtime": {
+          "FluxoCaixa.Lancamentos.Domain.dll": {}
+        }
+      },
+      "FluxoCaixa.Core/1.0.0": {
+        "runtime": {
+          "FluxoCaixa.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluxoCaixa.Lancamentos.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluxoCaixa.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

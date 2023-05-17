@@ -1,0 +1,15 @@
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.deps.json
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\bin\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\bin\Debug\net7.0\FluxoCaixa.Core.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\bin\Debug\net7.0\FluxoCaixa.Core.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.csproj.AssemblyReference.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.AssemblyInfoInputs.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.AssemblyInfo.cs
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.csproj.CopyComplete
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\refint\FluxoCaixa.Lancamentos.Domain.dll
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\FluxoCaixa.Lancamentos.Domain.pdb
+C:\Projetos\FluxoCaixa\FluxoCaixa.Lancamentos.Domain\obj\Debug\net7.0\ref\FluxoCaixa.Lancamentos.Domain.dll
