@@ -32,11 +32,6 @@ Instruções:
 	•	Iniciar o Docker
 	•	Navegar até o diretório do projeto
 	•	Executar o arquivo "up.bat"
-
-
-Testes
-
-	•	Foram utilizados testes de unidade na camada de Dominio
 	
 
 Desenho da arquitetura
