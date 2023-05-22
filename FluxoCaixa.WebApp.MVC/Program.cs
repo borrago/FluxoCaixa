@@ -7,6 +7,12 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var loggerFactory = LoggerFactory.Create(builder =>
+{
+    builder.AddConsole();
+});
+var logger = loggerFactory.CreateLogger<Program>();
+
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -26,6 +32,36 @@ builder.Services.AddAutoMapper(typeof(DomainToViewModelMappingProfile), typeof(V
 builder.Services.RegisterServices();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    try
+    {
+        dbContext.Database.Migrate();
+        logger.LogInformation("Banco de dados migrado com sucesso.");
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Ocorreu um erro ao migrar o banco de dados.");
+    }
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<LancamentoContext>();
+
+    try
+    {
+        dbContext.Database.Migrate();
+        logger.LogInformation("Banco de dados migrado com sucesso.");
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Ocorreu um erro ao migrar o banco de dados.");
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

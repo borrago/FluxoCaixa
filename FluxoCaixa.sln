@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{5603
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluxoCaixa.WebApp.MVC", "FluxoCaixa.WebApp.MVC\FluxoCaixa.WebApp.MVC.csproj", "{CA1B8DAC-6179-4C9A-947B-B4DE5602AB3B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BCD6ACC9-4500-446B-AF6D-2A2EEA6AF7F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluxoCaixa.Lancamentos.Domain.Tests", "FluxoCaixa.Lancamentos.Domain.Tests\FluxoCaixa.Lancamentos.Domain.Tests.csproj", "{58FA6061-2707-433E-9CA5-F78ADE42FEBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,10 @@ Global
 		{CA1B8DAC-6179-4C9A-947B-B4DE5602AB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1B8DAC-6179-4C9A-947B-B4DE5602AB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1B8DAC-6179-4C9A-947B-B4DE5602AB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58FA6061-2707-433E-9CA5-F78ADE42FEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58FA6061-2707-433E-9CA5-F78ADE42FEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58FA6061-2707-433E-9CA5-F78ADE42FEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58FA6061-2707-433E-9CA5-F78ADE42FEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,8 @@ Global
 		{4D75928A-23E0-4854-8CAA-2576AC557F49} = {06750F48-263D-4991-A743-347579FB0747}
 		{28830AFD-1FA3-457C-A1D7-B93C4B5EA8C5} = {06750F48-263D-4991-A743-347579FB0747}
 		{CA1B8DAC-6179-4C9A-947B-B4DE5602AB3B} = {5603202E-EEA1-4E36-B67A-5B0C8F164C97}
+		{BCD6ACC9-4500-446B-AF6D-2A2EEA6AF7F0} = {06750F48-263D-4991-A743-347579FB0747}
+		{58FA6061-2707-433E-9CA5-F78ADE42FEBB} = {BCD6ACC9-4500-446B-AF6D-2A2EEA6AF7F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04D4744D-F050-43EC-B65D-8D6B108F8E71}

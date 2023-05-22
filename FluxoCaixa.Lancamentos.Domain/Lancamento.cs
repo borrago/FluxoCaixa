@@ -23,7 +23,7 @@ namespace FluxoCaixa.Lancamentos.Domain
 
         public void Validar()
         {
-            Validacoes.ValidarMinimoMaximo(Valor, double.MinValue, double.MaxValue, "O campo Valor do lançamento é inválido.");
+            Validacoes.ValidarMinimoMaximo(Valor, double.MinValue, double.MaxValue, "O campo Valor do lançamento é inválido");
             Validacoes.ValidarSeNulo(TipoLancamento, "O campo TipoLancamento não pode estar vazio");
             Validacoes.ValidarSeNulo(DataRecebimento, "O campo DataRecebimento não pode estar vazio");
         }

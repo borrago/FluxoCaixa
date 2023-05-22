@@ -10,6 +10,5 @@ namespace FluxoCaixa.WebApp.MVC.Data
             : base(options)
         {
         }
-        public DbSet<FluxoCaixa.Lancamentos.Application.ViewModels.LancamentoViewModel> LancamentoViewModel { get; set; } = default!;
     }
 }

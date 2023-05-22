@@ -1,5 +1,21 @@
 version: '3.5'
 services:
+  fluxocaixa:
+    build:
+      context: .
+      args:
+        - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=FluxoCaixa.database:1433;Database=FluxoCaixa;User Id=SA;Password=0^5N1eb8ll5@G!O22wnow#Vn@;TrustServerCertificate=True;
+        - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - 8080:80
+    environment:
+      - CONNECTIONSTRINGS__DEFAULTCONNECTION=Server=FluxoCaixa.database,1433;Database=FluxoCaixa;User Id=SA;Password=0^5N1eb8ll5@G!O22wnow#Vn@;TrustServerCertificate=True;
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - FluxoCaixa.database
+    networks:
+      - FluxoCaixa
+
   FluxoCaixa.database:
     container_name: "FluxoCaixa.database"
     image: "mcr.microsoft.com/mssql/server:2019-latest"
