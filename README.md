@@ -1,45 +1,44 @@
-Fluxo Caixa
+Teste de Programação MF
 
-Aplicação de fluxo de caixa construída baseada na arquitetura de microserviço em conjunto com as boas praticas de desenvolvimento, código limpo e os principios do SOLID.
-
-
-Desenho da arquitetura
-
-![Arquitetura](https://github.com/borrago/FluxoCaixa/assets/50304554/8a62557d-14ff-4b0b-abaf-706571f40733)
-
-
-Padrões de microserviço utilizados
-
-•	Database per Service
-•	Shared database
-
-
-Padrões de projetos utilizados
-
-•	Scoped
+Aplicação de Teste de Programação construída baseada na arquitetura de microserviço em conjunto com as boas praticas de desenvolvimento, código limpo e os principios do SOLID.
 
 
 Tecnologias e bibliotecas usadas
 
-•	.NET 7
+	•	.NET 7
+	•	EntityFramework Core
+	•	SQL Server
+	•	AutoMapper
+	•	FluentValidation
+	•	Identity Server
+	
 
-•	EntityFramework Core
+Patterns utilizados
 
-•	SQL Server
-
-•	AutoMapper
-
-•	FluentValidation
-
-•	Identity Server
+	•	Database per Service
+	•	Unit Of Work
+	• 	Dependency Injection
+	•	Repository
 
 
-Execução do projeto
+Padrões de projetos utilizados
 
-Obg: É necessario ter o docker instalado
+	•	Scoped
 
-•	Navegar até o diretorio do projeto
 
-•	Subir o Docker através do CMD com o comando "docker-compose up"
+Instruções:
+  Obg: É necessario ter o docker instalado
 
-•	Executar o projeto pelo Visual Studio
+	•	Iniciar o Docker
+	•	Navegar até o diretório do projeto
+	•	Executar o arquivo "up.bat"
+
+
+Testes
+
+	•	Foram utilizados testes de unidade na camada de Dominio
+	
+
+Desenho da arquitetura
+ 
+![arquitetura](https://github.com/borrago/FluxoCaixa/assets/50304554/281d3d89-b805-4e74-ad41-1163c1a96839)
